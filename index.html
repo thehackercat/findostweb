@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<link rel="icon" href="../../favicon.ico">
+
+		<title>首页|美剧插曲妞</title>
+
+		<!-- Bootstrap core CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- Custom styles for this template -->
+		<link href="css/main.css" rel="stylesheet">
+
+		<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+		<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+		<script src="js/ie-emulation-modes-warning.js"></script>
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+	</head>
+
+	<body>
+
+		<div class="container">
+			<!-- Static navbar -->
+			<nav class="navbar navbar-default">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<img src="img/logo.jpg" style="width: 100px;height: 100%; float: left;">
+						<a class="navbar-brand" href="index.html">美剧插曲妞</a>
+					</div>
+					<div id="navbar" class="navbar-collapse collapse">
+						<ul class="nav navbar-nav  navbar-right">
+							<li class="active"><a href="#">首页</a>
+							</li>
+							<li><a href="allshow.html">所有美剧</a>
+							</li>
+							<li><a href="package.html">打包专区</a>
+							</li>
+							<li><a href="message.html">留言板</a>
+							</li>
+							<li><a href="aboutus.html">关于我们</a>
+							</li>
+							<li class="searchform">
+								<input  type="text" class="form-control " placeholder="Search...">
+							</li>
+						</ul>
+					</div>
+
+					<!--/.nav-collapse -->
+				</div>
+				<!--/.container-fluid -->
+			</nav>
+
+			<!-- Main component for a primary marketing message or call to action -->
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+				</ol>
+
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<img src="img/2.jpg" alt="...">
+						<div class="carousel-caption">
+						</div>
+					</div>
+					<div class="item">
+						<img src="img/1.jpg" alt="...">
+						<div class="carousel-caption">
+						</div>
+					</div>
+					<div class="item">
+						<img src="img/4.jpg" alt="...">
+						<div class="carousel-caption">
+						</div>
+					</div>
+
+				</div>
+
+				<!-- Controls -->
+				<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+
+			<h4 class="page-header">
+				已更新至周日（每天生肉发布后24小时内更新） 
+					<small class="pull-right"><a  style="color: white;" href="">more<span class="glyphicon glyphicon-chevron-right"></small></a>  
+			</h4>
+		
+			<div class="col-sm-12 tvpics">
+				<span class="col-sm-1 glyphicon glyphicon-chevron-left" onclick="tvpicsmove(1)"></span>
+				<div class="col-sm-10 tvpiclists" style="margin: 0px; padding: 0px;">
+					<div class="tvpiclistitem">
+
+						<img src="img/ABUIABACGAAg-u-1qQUoxeiEvAUwiAM42AQ!450x450.jpg" />
+						<img src="img/ABUIABACGAAg-b6HqQUooIaNnwcwkAM42AQ!450x450.jpg" />
+						<img src="img/ABUIABACGAAg1IO6qAUo8taY0gUwsgM42AQ.jpg" />
+						<img src="img/ABUIABACGAAg2-C4qQUo4NuMnAUwhQM42AQ.jpg" />
+						<img src="img/ABUIABACGAAg6KS3pQUowPn-tQUwuQM42AQ.jpg" />
+						<img src="img/ABUIABACGAAg3buNpQUou_aOhQcwwQM42AQ.jpg" />
+
+					</div>
+				</div>
+				<span class="col-sm-1 glyphicon glyphicon-chevron-right" onclick="tvpicsmove(-1)"></span>
+			</div>
+
+			<h4 class="page-header">
+				追剧日程 & 即将更新
+					<small class="pull-right"><a  style="color: white;" href="">more<span class="glyphicon glyphicon-chevron-right"></small></a>  
+			</h4>
+
+			<div class="col-sm-12 tvlinks">
+				<h4 style="color:#dd158f;">Sat.(5.2)</h4>
+				<a class="tvlink" href="#" title="Blue Bloods警察世家" target="_blank">Blue Bloods警察世家</a>
+				<a class="tvlink" href="#" title="Grimm格林" target="_blank">Grimm格林</a>
+				<a class="tvlink" href="#" title="Hawaii Five-0天堂执法者" target="_blank">Hawaii Five-0天堂执法者</a>
+				<a class="tvlink" href="#" title="The Messengers信使" target="_blank">The Messengers信使</a>
+				<h4 style="color: #dd158f;">Sun.(5.3)</h4>
+				<a class="tvlink" href="#" title="Orphan Black黑色孤儿" target="_blank">Orphan Black黑色孤儿</a>
+				<a class="tvlink" href="#" title="Outlander古战场传奇" target="_blank">Outlander古战场传奇</a>
+				<h4 style="color: #dd158f;">Mon.(5.4)</h4>
+				<a class="tvlink" href="#" title="Battle Creek江城警事" target="_blank">Battle Creek江城警事</a>
+				<a class="tvlink" href="#" title="Brooklyn Nine-Nine神烦警探" target="_blank">Brooklyn Nine-Nine神烦警探</a>
+				<a class="tvlink" href="#" title="Family Guy恶搞之家" target="_blank">Family Guy恶搞之家</a>
+				<a class="tvlink" href="#" title="Game of Thrones权力的游戏" target="_blank">Game of Thrones权力的游戏</a>
+				<a class="tvlink" href="#" title="Mad Men广告狂人" target="_blank">Mad Men广告狂人</a>
+				<a class="tvlink" href="#" title="Madam Secretary国务卿女士" target="_blank">Madam Secretary国务卿女士</a>
+				<a class="tvlink" href="#" title="Motive作案动机" target="_blank">Motive作案动机</a>
+				<a class="tvlink" href="#" title="Nurse Jackie护士当家" target="_blank">Nurse Jackie护士当家</a>
+				<a class="tvlink" href="#" title="Once upon a time童话镇" target="_blank">Once upon a time童话镇</a>
+				<a class="tvlink" href="#" title="Revenge复仇" target="_blank">Revenge复仇</a>
+				<a class="tvlink" href="#" title="Secrets and Lies秘密与谎言" target="_blank">Secrets and Lies秘密与谎言</a>
+				<a class="tvlink" href="#" title="Silicon Valley硅谷" target="_blank">Silicon Valley硅谷</a>
+				<a class="tvlink" href="#" title="The Good Wife傲骨贤妻" target="_blank">The Good Wife傲骨贤妻</a>
+				<a class="tvlink" href="#" title="The Last Man On Earth最后一个男人" target="_blank">The Last Man On Earth最后一个男人</a>
+				<a class="tvlink" href="#" title="The Royals王室" target="_blank">The Royals王室</a>
+				<a class="tvlink" href="#" title="The Simpsons辛普森一家" target="_blank">The Simpsons辛普森一家</a>
+				<h4 style="color: #dd158f;">Tues.(5.5)</h4>
+				<a class="tvlink" href="#" title="Bates Motel贝茨旅馆" target="_blank">Bates Motel贝茨旅馆</a>
+				<a class="tvlink" href="#" title="Castle灵书妙探" target="_blank">Castle灵书妙探</a>
+				<a class="tvlink" href="#" title="Gotham哥谭" target="_blank">Gotham哥谭</a>
+				<a class="tvlink" href="#" title="Jane the Virgin处女情缘" target="_blank">Jane the Virgin处女情缘</a>
+				<a class="tvlink" href="#" title="Remedy妙医世家" target="_blank">Remedy妙医世家</a>
+				<a class="tvlink" href="#" title="The Following杀手信徒" target="_blank">The Following杀手信徒</a>
+				<a class="tvlink" href="#" title="The Night Shift夜班医生" target="_blank">The Night Shift夜班医生</a>
+				<a class="tvlink" href="#" title="The Originals初代吸血鬼" target="_blank">The Originals初代吸血鬼</a>
+				<a class="tvlink" href="#" title="The Returned魂归故里" target="_blank">The Returned魂归故里</a>
+				<a class="tvlink" href="#" title="Turn逆转奇兵" target="_blank">Turn逆转奇兵</a>
+
+				<br />
+				<br />
+				<br />
+			</div>
+			<h4 class="page-header">			 
+				热门已完结季美剧
+					<small class="pull-right"><a  style="color: white;" href="">more<span class="glyphicon glyphicon-chevron-right"></small></a>  
+			</h4>
+
+			<div class="tvpichz" style="min-width:1261px; height: 500px; overflow: hidden;">
+				<div class="tvpichziem" style="min-width:1261px; height: auto;">
+					<div class="tvpicitemlist" style=" position: relative;">
+						<div class="tvpicitem">
+							<p class="tvpicitemdes" style="position: relative; color: white;">
+								<br />卡特
+								<br />中文名：特工卡特/卡特探员
+								<br />外文名：Agent Carter/Marvel’s Agent Carter
+								<br />出品公司：abc
+								<br />类型：动作，科幻，冒险
+								<br />更新至：S1已完结
+							</p>
+						</div>
+						<img style="width: 100%; height: 500px;" src="img/ABUIABACGAAg38fXpQUokOvL0AMwhAc4sAk!1000x1000.jpg">
+
+					</div>
+					<div class="tvpicitemlist" style=" position: relative;">
+						<div class="tvpicitem">
+							<p class="tvpicitemdes" style="position: relative; color: white;">
+								<br>新闻编辑室
+								<br>中文名：新闻编辑室
+								<br>外文名：The Newsroom
+								<br>出品公司：HBO
+								<br>类型：剧情
+								<br>更新至：S3已完结
+							</p>
+						</div>
+						<img style="width: 100%; height: 500px;" src="img/ABUIABACGAAg8rDKowUo3NCA3AIwswU4gAg!1000x1000.jpg">
+					</div>
+					<div class="tvpicitemlist" style=" position: relative;">
+						<div class="tvpicitem">
+							<p class="tvpicitemdes" style="position: relative; color: white;">
+								<br>透明家庭
+								<br>中文名：透明家庭/透明人生 / 老爸爱变装
+								<br>外文名：Transparent
+								<br>出品公司：amazon prime
+								<br>类型：喜剧
+								<br>更新至：第一季共10集 已完结
+							</p>
+						</div>
+						<img style="width: 100%; height: 500px;" src="img/ABUIABACGAAgjofwpAUopuT3igcwlQM42AQ.jpg">
+					</div>
+					<div class="tvpicitemlist" style=" position: relative;">
+						<div class="tvpicitem">
+							<p class="tvpicitemdes" style="position: relative; color: white;">
+								<br>东区女巫
+								<br>中文名：东区女巫
+								<br>外文名：Witches of East End
+								<br>出品公司：Lifetime
+								<br>类型：魔幻，家庭，爱情，悬疑
+								<br>更新至：S2已完结
+							</p>
+						</div>
+						<img style="width: 100%; height: 500px;" src="img/ABUIABACGAAgrbqfoQUokoKL8AMw3QI4-gM.jpg">
+					</div>
+					<div class="tvpicitemlist" style=" position: relative;">
+						<div class="tvpicitem">
+							<p class="tvpicitemdes" style="position: relative; color: white;">
+								<br>行尸走肉
+								<br>中文名：行尸走肉/阴尸路（台）
+								<br>外文名：The Walking Dead
+								<br>出品公司：AMC电视网
+								<br>类型：冒险，剧情，恐怖，惊悚，感情
+								<br>集数：6/13/16/16/16
+							</p>
+						</div>
+						<img style="width: 100%; height: 500px;" src="img/ABUIABACGAAgxbjAqAUo8r3F-AMwlAM42AQ.jpg">
+					</div>
+					<div class="tvpicitemlist" style=" position: relative;">
+						<div class="tvpicitem">
+							<p class="tvpicitemdes" style="position: relative; color: white;">
+								<br>马可波罗
+								<br>中文名：马可波罗/马可波罗游记
+								<br>外文名：Marco Polo
+								<br>出品公司：Netflix
+								<br>类型：冒险
+								<br>更新至：第一季共10集 已完结
+							</p>
+						</div>
+						<img style="width: 100%; height: 500px;" src="img/ABUIABACGAAgtPLfpAUo--3A_gcwlQM42AQ.jpg">
+					</div>
+				</div>
+				<div style="min-width:1261px;">
+					<div class="tvpicitemlist" style=" position: relative;">
+						<div class="tvpicitem">
+							<p class="tvpicitemdes" style="position: relative; color: white;">
+								<br />卡特
+								<br />中文名：特工卡特/卡特探员
+								<br />外文名：Agent Carter/Marvel’s Agent Carter
+								<br />出品公司：abc
+								<br />类型：动作，科幻，冒险
+								<br />更新至：S1已完结
+							</p>
+						</div>
+						<img style="width: 100%; height: 500px;" src="img/ABUIABACGAAg38fXpQUokOvL0AMwhAc4sAk!1000x1000.jpg">
+					</div>
+					<div class="tvpicitemlist" style=" position: relative;">
+						<div class="tvpicitem">
+							<p class="tvpicitemdes" style="position: relative; color: white;">
+								<br>新闻编辑室
+								<br>中文名：新闻编辑室
+								<br>外文名：The Newsroom
+								<br>出品公司：HBO
+								<br>类型：剧情
+								<br>更新至：S3已完结
+							</p>
+						</div>
+						<img style="width: 100%; height: 500px;" src="img/ABUIABACGAAg8rDKowUo3NCA3AIwswU4gAg!1000x1000.jpg">
+					</div>
+					<div class="tvpicitemlist" style=" position: relative;">
+						<div class="tvpicitem">
+							<p class="tvpicitemdes" style="position: relative; color: white;">
+								<br>透明家庭
+								<br>中文名：透明家庭/透明人生 / 老爸爱变装
+								<br>外文名：Transparent
+								<br>出品公司：amazon prime
+								<br>类型：喜剧
+								<br>更新至：第一季共10集 已完结
+							</p>
+						</div>
+						<img style="width: 100%; height: 500px;" src="img/ABUIABACGAAgjofwpAUopuT3igcwlQM42AQ.jpg">
+					</div>
+				</div>
+			</div>
+
+			<br />
+			<br />
+		</div>
+		<!-- /container -->
+		<footer class="footer " style="margin-top: 30px; border-top: 2px white  groove; padding-top: 30px;">
+			<div class="container">
+				<p class="text-muted pull-left" style="font-size: 15px; margin: 20px 40px;">
+					阿妞友链
+					<br />
+					<a style="color: white;" href="#">炒饭网</a>
+					<br />
+					<a style="color: white;" href="#">FIX字幕侠</a>
+					<br />
+					<a style="color: white;" href="#">SSK字幕组</a>
+				</p>
+
+				<p style="text-align: center;">
+					首页 关于我们 联系我们
+					<br /> ©2014-2015 美剧插曲妞 版权所有</p>
+				<p class="text-muted pull-right" style="font-size: 15px; margin: 20px 40px;">
+					关注我们
+					<img style="width:20px;" src="img/weibo.png" />
+					<img style="width: 20px;" src="img/weixin.png" />
+					<br />
+				</p>
+
+			</div>
+		</footer>
+		<!-- Bootstrap core JavaScript
+    ================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+		<script src="js/ie10-viewport-bug-workaround.js"></script>
+		<script>
+		var hovsta = 0;
+			$(function() {
+				pichzct();				
+				$(".tvpicitemlist img").mouseover(function(){					   
+					  $(this).prev().fadeIn(1000);
+					  hovsta =1;
+				}).mouseout(function(){
+					hovsta =0;
+					$(this).prev().fadeOut(1000);
+				});
+				$(".tvpicitemlist img").click(function(){
+					window.location.href ="singleview.html";
+				});
+				$(".carousel-inner div").click(function(){
+					window.location.href ="singleview.html";
+				});				
+				
+				$(".tvpiclistitem img").click(function(){
+					window.location.href ="singleview.html";
+				});
+				
+				
+				$(".tvlinks a").click(function(){
+					window.location.href ="singleview.html";
+					return false;
+				});
+				
+				$(".tvpicitem").mouseover(function(){
+					  $(this).show();
+					  hovsta =1;
+				}).mouseout(function(){
+					hovsta =0;
+					$(this).hide();
+				}).click(function(){
+					window.location.href ="singleview.html";
+				});			
+				 
+			})
+
+			function tvpicsmove(poc) {
+				var marletf = $(".tvpiclistitem").css("margin-left");
+				var maxlef = -($(".tvpiclistitem img").length - 1) * 185;
+				marletf = marletf.replace("px", "");
+				if (poc == -1) {
+					if (marletf == maxlef) return;
+					marletf = marletf - 185;
+				} else {
+					if (marletf == 0) return;
+					marletf = marletf - 0 + 185;
+				}
+				marletf = marletf + "px";
+				//alert(marletf);
+				$(".tvpiclistitem").css("margin-left", marletf);
+				//alert($(".tvpiclistitem img").length);
+			}
+
+			function pichzct() {
+				if(hovsta == 0){
+					var martop = $(".tvpichziem").css("margin-top");
+					martop = martop.replace("px", "");
+					martop = martop - 5;
+					maxtop = -Math.ceil(($(".tvpichziem img").length / 3)) * 520+5;
+					if (maxtop >= martop) martop = 0;
+					martop = martop + "px";
+					//console.log(martop+","+maxtop);
+					$(".tvpichziem").css("margin-top", martop);
+				}
+				setTimeout(pichzct,100);
+			}
+			
+			
+			
+		</script>
+	</body>
+
+</html>

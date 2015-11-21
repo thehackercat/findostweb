@@ -1,0 +1,261 @@
+ 
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: url(../img/bg.jpg);
+
+}
+
+.navbar {
+  margin-bottom: 20px;
+  background:transparent;
+  border: 0px;
+  color: white;
+}
+ 
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	color: #dd158f;
+	font-weight: bold;
+	background:transparent;
+	border-bottom: 5px  groove black;
+	
+}
+.navbar>.container-fluid .navbar-brand{
+    font-size: 20px;
+    line-height: 60px;
+	color: white;
+	font-weight: bold;
+	margin-left: 5px;
+}
+.navbar-default .navbar-nav>li>a
+{ 
+	font-weight: bold;
+	color: white;
+	color: #dd158f;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+	color: #dd158f;
+}
+.alert{
+　background:transparent;
+}
+
+
+.tvlinks{
+ 	margin-bottom: 20px;
+}
+.tvlinks h4{
+	padding: 5px 10px;
+	width: 100%;
+	display: block;
+	float: left;
+}
+.page-header{
+	color: white;
+	border: 40%;
+}
+
+.tvlink{	
+	color: white;
+	padding: 5px 10px;
+	display: block;
+	float: left;
+	
+}
+
+.tvlink:hover{	
+	background-color: darkgray;
+	color: white;
+	text-decoration: none;
+}
+
+.tvpiclists,.tvpics{
+	overflow:hidden;
+	height: 300px;
+}
+.tvpics span{
+	height: 267px;
+	 line-height: 267px;
+	 color: darkgrey;
+	 font-weight: bold;
+	 font-size:40px
+}
+.tvpics img{
+	height: 267px;
+	width: 175px;
+	display: block;
+	float: left;
+	margin: 17px 5px;
+}
+
+.tvpiclistitem{
+	height: 301px;
+	width: auto;
+}
+
+.tvpichz div{
+	float: left;
+	 margin: 10px 10px;
+	 width: 350px;
+}
+
+
+.tvpicitemlist>.tvpicitem{
+	width: 100%; 
+	height: 250px;
+	position:absolute;
+	top: 250px;
+	background: rgba(0, 0, 0, 0.7)!important;
+	filter: Alpha(opacity=60);	 
+	margin: 0px;	
+	text-align: center; 
+	display: none;
+}
+
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+body>.container{
+	
+	margin-bottom: 120px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 160px;
+  background-color: black;
+  color: white;
+}
+.footer .container{
+	background-color: black;
+}
+.text-muted{
+	color: white;
+	background-color: black;
+}
+
+.carousel-inner div,.tvpiclistitem img,.tvpicitemlist img{
+	cursor: pointer; 
+}
+
+ .tvpicitemlist>.tvpicitem>span{
+	position:relative;
+	color: white;
+}
+
+
+.allshowlist  li{
+	list-style-type: none;
+	text-align: left;
+}
+
+.allshowlist a{
+	color: #dd158f;
+}
+
+.allshowlist span{
+	color: white;
+}
+
+
+.allshowimgitem p{
+	color: white;
+	text-align: center;
+	 text-overflow:ellipsis;
+	 white-space: nowrap;
+	 overflow: hidden;
+}
+
+.allshowimgitem img{
+	width: 100%;
+	height: 162px;
+}
+
+.dl-horizontal {
+	color: white;
+}
+
+.pagenation{
+	margin-top: 20px;
+}
+
+.pagenation a{
+	color: white;
+	 padding:2px 5px;
+	border: 1px white  groove;
+	width: 20px;
+ 
+ 
+}
+
+
+.pagenation a:hover{
+ 	text-decoration: none;
+ 	background-color: darkgrey;
+ 
+}
+
+.packagebody{
+	
+
+	
+}
+
+.packagecontain{
+				background: rgba(255, 255, 255, 0.7)!important;
+				filter: Alpha(opacity=60);
+				background: #fff;
+			    position: relative;
+			    padding: 20px 30px;
+}
+
+.packagecontain p{
+	 position: relative;
+}
+.packagecontain img{
+	 position: relative;
+}
+
+.searchform{
+	margin-left: 20px;
+	padding: 8px 0px;
+}
+
+
+.allshowlistdetailinfo{
+	display: block;
+	background-color: white;
+	position: absolute;
+	width: 200px;
+	height: 500px;
+	left: 200px;
+	top: 50px;
+	z-index: 1;
+	 display: none;
+	padding: 20px 30px;
+}
+
+.allshowlistdetailinfo p{
+ 
+	text-align: center;
+	 text-overflow:ellipsis;
+	 white-space: nowrap;
+	 overflow: hidden;
+}
+
+.allshowimgitem img{
+	cursor: pointer;
+}
+
